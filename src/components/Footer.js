@@ -26,10 +26,10 @@ const Footer = () => {
           <Col md={4} className="mb-4">
             <h6 className="text-white mb-3">Connect With Us</h6>
             <div className="d-flex gap-3">
-              <a href="#" className="text-muted" aria-label="Visit our Facebook page"><FaFacebook size={24} /></a>
-              <a href="#" className="text-muted" aria-label="Follow us on Twitter"><FaTwitter size={24} /></a>
-              <a href="#" className="text-muted" aria-label="Follow us on Instagram"><FaInstagram size={24} /></a>
-              <a href="#" className="text-muted" aria-label="Connect on LinkedIn"><FaLinkedin size={24} /></a>
+              <a href="https://facebook.com" className="text-muted" aria-label="Visit our Facebook page" target="_blank" rel="noopener noreferrer"><FaFacebook size={24} /></a>
+              <a href="https://twitter.com" className="text-muted" aria-label="Follow us on Twitter" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /></a>
+              <a href="https://instagram.com" className="text-muted" aria-label="Follow us on Instagram" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} /></a>
+              <a href="https://linkedin.com" className="text-muted" aria-label="Connect on LinkedIn" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} /></a>
             </div>
           </Col>
         </Row>
