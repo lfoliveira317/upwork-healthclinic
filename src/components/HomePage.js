@@ -170,7 +170,7 @@ const Blog = () => {
                   <div className="text-muted small mb-2">{post.date}</div>
                   <Card.Title className="mb-3">{post.title}</Card.Title>
                   <Card.Text className="text-muted">{post.excerpt}</Card.Text>
-                  <a href="#" className="text-primary text-decoration-none fw-bold">
+                  <a href="#blog" className="text-primary text-decoration-none fw-bold">
                     Read More →
                   </a>
                 </Card.Body>
