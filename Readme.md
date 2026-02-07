@@ -1,7 +1,28 @@
 # Health Clinic Web App
 
-
 A modern wellness and personal development web application designed to provide users with an intuitive, calming digital experience for their health journey.
+
+## 🎨 ReactJS + Bootstrap Mockup
+
+This repository contains a fully functional ReactJS mockup with Bootstrap styling for the Health Clinic application.
+
+### Quick Start
+
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Run the Development Server**
+   ```bash
+   npm start
+   ```
+   The application will open at [http://localhost:3000](http://localhost:3000)
+
+3. **Build for Production**
+   ```bash
+   npm run build
+   ```
 
 ## Overview
 
@@ -17,7 +38,13 @@ This web application is built in the wellness and personal development space, fe
 
 ## Tech Stack
 
-### Frontend
+### Current Mockup (ReactJS + Bootstrap)
+- **React 18** - Modern JavaScript library for building user interfaces
+- **Bootstrap 5** - Popular CSS framework for responsive design
+- **React-Bootstrap** - Bootstrap components built with React
+- **React Icons** - Icon library for React applications
+
+### Original Tech Stack Reference
 - **Vue.js** - Progressive JavaScript framework
 - **Nuxt.js** - Vue.js meta-framework for SSR/SSG
 - **Vuetify** - Material Design component framework
@@ -40,14 +67,14 @@ This web application is built in the wellness and personal development space, fe
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js (v14 or higher)
 - npm or yarn package manager
 
-### Installation
+### Installation & Running
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/upwork-healthclinic.git
+   git clone https://github.com/lfoliveira317/upwork-healthclinic.git
    cd upwork-healthclinic
    ```
 
@@ -56,40 +83,39 @@ This web application is built in the wellness and personal development space, fe
    npm install
    ```
 
-3. Set up environment variables:
+3. Run the development server:
    ```bash
-   cp .env.example .env
+   npm start
    ```
 
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the mockup.
 
 ## Project Structure
 
 ```
 upwork-healthclinic/
-├── assets/          # Static assets (images, fonts, etc.)
-├── components/      # Vue components
-├── layouts/         # Page layouts
-├── pages/           # Application pages/routes
-├── plugins/         # Vue plugins
-├── store/           # Vuex store modules
-├── static/          # Static files
-├── middleware/      # Route middleware
-└── nuxt.config.js   # Nuxt configuration
+├── public/              # Static files and HTML template
+│   └── index.html      # Main HTML file
+├── src/                # Source files
+│   ├── components/     # React components
+│   │   ├── Header.js   # Navigation header
+│   │   ├── Footer.js   # Footer component
+│   │   └── HomePage.js # Main page with all sections
+│   ├── App.js          # Main App component
+│   ├── App.css         # App-specific styles
+│   ├── index.js        # Application entry point
+│   └── index.css       # Global styles
+├── package.json        # Dependencies and scripts
+└── Readme.md          # This file
 ```
 
 ## Development
 
-### Running Tests
+### Available Scripts
 
-```bash
-npm run test
-```
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner (if tests are added)
+- `npm run build` - Builds the app for production
 
 ### Building for Production
 
@@ -97,15 +123,15 @@ npm run test
 npm run build
 ```
 
-### Linting
-
-```bash
-npm run lint
-```
+This creates an optimized production build in the `build/` folder.
 
 ## Deployment
 
-The application is deployed on Netlify. Push to the main branch to trigger automatic deployment.
+The application can be deployed to various platforms:
+- **Netlify** - Connect your GitHub repository for automatic deployments
+- **Vercel** - Deploy with zero configuration
+- **AWS S3** - Host static files with CloudFront CDN
+- **GitHub Pages** - Free hosting for static sites
 
 ## Contributing
 
